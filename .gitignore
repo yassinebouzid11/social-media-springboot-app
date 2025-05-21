@@ -1,0 +1,23 @@
+# Node modules
+/client/node_modules/
+/server/src/main/resources/application.properties
+
+
+
+
+# Express build output (if using TypeScript with tsc)
+# You can remove this if you're not compiling anything
+
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+
+# Environment variables
+*.env
+*.env.local
+*.env.*.local
+
