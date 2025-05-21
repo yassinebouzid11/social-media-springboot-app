@@ -1,0 +1,47 @@
+.comments-section {
+    margin-top: 1.5rem;
+    border-top: 1px solid #eee;
+    padding-top: 1rem;
+  }
+  
+  .comments-section h3 {
+    font-size: 1.1rem;
+    margin-bottom: 1rem;
+    color: #333;
+  }
+  
+  .comments-list {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+  
+  .comment {
+    padding: 0.75rem;
+    border-radius: 8px;
+    background: #f9f9f9;
+    align-items: flex-start;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+  }
+  
+  .comment-author {
+    font-weight: 600;
+    font-size: 0.9rem;
+    color: #1a73e8;
+    margin-bottom: 0.25rem;
+  }
+  
+  .comment-text {
+    font-size: 0.95rem;
+    line-height: 1.4;
+    margin-bottom: 0.5rem;
+    align-items: flex-start;
+
+  }
+  
+  .comment-time {
+    font-size: 0.8rem;
+    color: #666;
+  }
